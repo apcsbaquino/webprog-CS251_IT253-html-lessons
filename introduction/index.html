@@ -5,15 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nice to meet you! &lt;3</title>
   
-  <!-- Google Fonts: VT323 for retro feel & Quicksand / Itim for sweet rounded typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Gaegu:wght@400;700&family=Quicksand:wght@500;600;700&family=VT323&display=swap" rel="stylesheet">
   
   <style>
-    /* ==========================================================================
-       🌸 1. THEME PALETTE & GLOBAL STYLES 🌸
-       ========================================================================== */
+  
     :root {
       --pink-deep: #ff4d88;
       --pink-hot: #ff69b4;
@@ -37,22 +34,16 @@
       font-family: 'Quicksand', sans-serif;
       color: var(--text-dark);
       line-height: 1.6;
-      /* =====================================================================
-         >>> PLACEHOLDER: BACKGROUND IMAGE <<<
-         PASTE YOUR CUSTOM BACKGROUND IMAGE URL INSIDE url('...') BELOW.
-         IF YOU LEAVE IT BLANK, IT WILL USE THIS SWEET PASTEL POLKA-DOT PATTERN!
-         ===================================================================== */
+
       background-color: #ffd6e0;
       background-image: radial-gradient(#ffadc2 15%, transparent 16%), radial-gradient(#ffadc2 15%, transparent 16%);
       background-size: 28px 28px;
       background-position: 0 0, 14px 14px;
-      /* TO USE YOUR OWN IMAGE INSTEAD, UNCOMMENT & EDIT THE LINE BELOW: */
       /* background-image: url('PASTE_YOUR_FULL_PAGE_BACKGROUND_IMAGE_URL_HERE'); background-size: cover; background-attachment: fixed; */
       min-height: 100vh;
       padding: 15px 10px 40px;
     }
 
-    /* Container */
     .profile-wrapper {
       max-width: 960px;
       margin: 0 auto;
@@ -64,7 +55,6 @@
       backdrop-filter: blur(4px);
     }
 
-    /* Retro Top Navbar (SpaceHey / Web 2.0 vibe) */
     .retro-navbar {
       background: linear-gradient(180deg, #ff85ad 0%, #ff5287 100%);
       color: #fff;
@@ -91,7 +81,6 @@
       text-decoration: underline;
     }
 
-    /* Emoticon marquee banner */
     .marquee-strip {
       background: #ffe3eb;
       color: var(--pink-deep);
@@ -103,7 +92,6 @@
       letter-spacing: 1.5px;
     }
 
-    /* Main Page Header Banner */
     .header-banner {
       background: linear-gradient(135deg, #fff0f5 0%, #ffd1dc 50%, #fbe4ff 100%);
       padding: 24px 20px 16px;
@@ -128,7 +116,6 @@
       color: #a8426d;
     }
 
-    /* Layout Columns */
     .main-content {
       display: grid;
       grid-template-columns: 310px 1fr;
@@ -142,7 +129,6 @@
       }
     }
 
-    /* Sanrio-styled Box Cards */
     .pastel-box {
       background: var(--card-bg);
       border: 2px solid var(--lace-border);
@@ -180,14 +166,12 @@
       padding: 16px 18px;
     }
 
-    /* Avatar Floral Badge Section */
     .avatar-wrapper {
       text-align: center;
       position: relative;
       padding: 15px 0 10px;
     }
 
-    /* Floral Petal Crown */
     .floral-crown {
       display: flex;
       justify-content: center;
@@ -250,7 +234,6 @@
       50% { opacity: 0.4; }
     }
 
-    /* Mini Info Table */
     .retro-table {
       width: 100%;
       border-collapse: separate;
@@ -279,7 +262,6 @@
       border-left: none;
     }
 
-    /* Pill Badges */
     .badge-tag {
       display: inline-block;
       background: #ffe3ed;
@@ -326,7 +308,6 @@
       content: "🦋";
     }
 
-    /* Photo Gallery / Stamps Grid */
     .gallery-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
@@ -366,7 +347,6 @@
       line-height: 1.2;
     }
 
-    /* Specimen highlight card */
     .butterfly-spotlight {
       background: linear-gradient(135deg, #fdf6ff 0%, #fff0f6 100%);
       border: 2px dotted #c99ee6;
@@ -391,7 +371,6 @@
       flex-shrink: 0;
     }
 
-    /* Quote / Mission Ribbon */
     .ribbon-banner {
       background: linear-gradient(90deg, #ff85ad 0%, #ff5287 50%, #ff85ad 100%);
       color: #fff;
@@ -409,7 +388,6 @@
       line-height: 1.5;
     }
 
-    /* Blinkie / Stamp bar */
     .blinkie-bar {
       display: flex;
       gap: 8px;
@@ -438,7 +416,6 @@
     .blinkie.teal { background: #00897b; }
     .blinkie.rose { background: #e91e63; }
 
-    /* Footer */
     .footer-section {
       text-align: center;
       padding: 18px 10px;
@@ -458,10 +435,8 @@
 </head>
 <body>
 
-  <!-- Main Profile Enclosure -->
   <div class="profile-wrapper">
     
-    <!-- Top Nostalgic Retro Nav Bar -->
     <header class="retro-navbar">
       <div>
         <span>૮₍ ˶•⤙• ˶₎ა Clem's Space</span>
@@ -476,27 +451,20 @@
       </div>
     </header>
 
-    <!-- Marquee Emoticon Strip -->
     <div class="marquee-strip">
       ✧*̥˚ (✿◕‿◕) WELCOME TO MY COZY LITTLE CORNER OF THE WEB! (｡♥‿♥｡) ˚*̥✧
     </div>
 
-    <!-- Header Banner -->
     <div class="header-banner">
       <div class="kaomoji-divider">୨୧ ┈┈┈┈┈┈┈┈┈ (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ ┈┈┈┈┈┈┈┈┈ ୨୧</div>
       <h1>Clem’s Personal Profile Web page</h1>
       <p>Nice to meet you! &lt;3 • BS Information Technology Student</p>
     </div>
 
-    <!-- 2-Column Content Grid -->
     <main class="main-content">
       
-      <!-- ===================================================================
-           LEFT COLUMN: AVATAR, PROFILE QUICK INFO, STAMPS & BLINKIES
-           =================================================================== -->
       <aside class="left-col">
         
-        <!-- Profile Picture & Petal Crown Card -->
         <section class="pastel-box" id="avatar-card">
           <div class="box-header">
             <span>(｡&gt;﹏&lt;｡) Profile Pic</span>
@@ -504,7 +472,6 @@
           </div>
           <div class="box-body avatar-wrapper">
             
-            <!-- Floral / Petal Ring on Top of Avatar -->
             <div class="floral-crown" title="Petal Ring Badge">
               🌸 ❀ ✿ 🌸 ✿ ❀ 🌸
             </div>
@@ -518,7 +485,7 @@
                 class="avatar-img" 
                 src="https://placehold.co/400x400/ffd1dc/ff3377?text=PASTE+AVATAR+PHOTO+HERE" 
                 alt="Samantha Erin B. Aquino (Clem) Avatar"
-                onerror="this.src='https://placehold.co/400x400/ffe4e9/ff3377?text=Clem+Avatar';"
+                onerror="this.src='https://as-prod.asyncgw.teams.microsoft.com/v1/52be4e6c-e5e3-453c-9743-1f4b4fd558a7/objects/0-ea-d11-f6905d8af805b811f67f9df498731c31/views/imgpsh_fullsize';"
               >
             </div>
 
